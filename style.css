@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'ginkoregular';
+    src: url('fonts/ginko-webfont.woff2') format('woff2'), url('fonts/ginko-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'melbournebold';
+    src: url('fonts/melbourne_bold_basic-webfont.woff2') format('woff2'), url('fonts/melbourne_bold_basic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'melbournelight';
+    src: url('fonts/melbourne_light_basic-webfont.woff2') format('woff2'), url('fonts/melbourne_light_basic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'melbourneregular';
+    src: url('fonts/melbourne_regular_basic-webfont.woff2') format('woff2'), url('fonts/melbourne_regular_basic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 1312px;
+    height: 100%;
+    font-family: 'melbourneregular';
+}
+
+.navigation {
+    position: absolute;
+    width: 1312px;
+    height: 25px;
+    background-color: rgba(60, 160, 60, 0.308);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation a {
+    margin-right: 80px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    background-image: url(images/menu_hover.png);
+}
+
+.topfont {
+    width: 1312px;
+    height: 622px;
+    background-image: url(images/bg_header.jpg);
+    background-repeat: no-repeat;
+}
+
+.zonetitre {
+    width: 1001px;
+    height: 350px;
+    background-color: rgba(252, 184, 184, 0);
+    margin-left: 155px;
+    margin-top: -570px;
+}
+
+.decouvrir {
+    color: green;
+    float: right;
+    margin-right: 50px;
+    margin-top: -70px;
+}
+
+.discover {
+    color: green;
+    text-decoration: none;
+}
+
+.tasse {
+    margin-top: 80px;
+}
+
+.slogant {
+    float: right;
+    margin-top: 250px;
+    margin-right: 200px;
+}
+
+.zonetext {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1001px;
+    height: 200px;
+    margin-left: 155px;
+    margin-top: 0px;
+    background-color: rgba(189, 183, 107, 0);
+}
+
+.variete {
+    width: 280px;
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.title img {
+    vertical-align: middle;
+}
+
+.chine {
+    width: 280px;
+    height: 200px;
+    background-color: rgba(255, 208, 0, 0);
+}
+
+.detente {
+    width: 280px;
+    height: 200px;
+    background-color: rgba(225, 0, 255, 0);
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.bodybg {
+    width: 1312px;
+    height: 500px;
+    margin-top: 15px;
+    background-image: url("images/bg_body.jpg");
+    background-repeat: repeat;
+}
+
+.bot {
+    margin-left: 155px;
+    width: 1001px;
+    height: 400px;
+    background-color: rgba(0, 255, 106, 0);
+    display: flex;
+}
+
+.news {
+    display: flex;
+    justify-content: start;
+    align-items: space-evenly;
+    margin-top: -1px;
+    height: 388px;
+    width: 560px;
+    background-image: url(images/bg_news.jpg);
+}
+
+.calendar {
+    width: 60px;
+    height: 388px;
+    background-color: rgba(255, 182, 193, 0);
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.dates {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 41px;
+    height: 78px;
+    background-image: url(images/bg_date.png);
+}
+
+.jours {
+    font-family: 'ginkoregular';
+}
+
+.mois {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.joursmois {
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.actu {
+    margin-top: -3px;
+    width: 500px;
+    height: 385px;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.article {
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 490px;
+    height: 110px;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.next {
+    color: rgb(221, 86, 52);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.rightbot {
+    margin-left: 30px;
+    width: 421px;
+    height: 380px;
+    background-color: rgba(255, 255, 126, 0);
+}
+
+.space {
+    margin-bottom: 8px;
+}
+
+.rightbot>p {
+    margin-top: 0px;
+}
+
+h1 {
+    font-family: 'melbournelight';
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.listing {
+    margin-top: -20px;
+    margin-left: -15px;
+    width: 300px;
+    height: 80px;
+    background-color: rgba(0, 128, 128, 0);
+    margin-bottom: 10px;
+}
+
+.liste1 {
+    float: left;
+}
+
+.liste2 {
+    float: right;
+}
+
+li {
+    list-style-image: url(images/puce_feuille.png);
+    color: green;
+}
+
+h4 {
+    margin-bottom: -5px;
+}
+
+input {
+    width: 220px;
+}
+
+.bouton {
+    width: 103px;
+    height: 26px;
+    background-image: url(images/bg_btn.jpg);
+    color: white;
+}
+
+.bouton>a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin-top: -11px;
+    margin-left: 13px;
+}
+
+.pot {
+    margin-left: 120px;
+    margin-top: -75px;
+}
+
+.footer {
+    background-image: url(images/bg_footer.png);
+    margin-left: 155px;
+    margin-top: 20px;
+    width: 1002px;
+    height: 52px;
+}
+
+.footer>p {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.follow {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 205px;
+}
+
+.copyrights {
+    font-family: 'melbournelight';
+    float: right;
+}
